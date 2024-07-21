@@ -7,14 +7,9 @@ button.addEventListener("click",()=>{
 	const text = document.getElementById("text").value;
 	const delay= document.getElementById("delay").value;
 	
-	
-       
-	
-		let display=setInterval(function(){
+		let display=setTimeout(function(){
 		output.innerText=text;
-		 clearInterval(displayl);
 		}, parseInt(delay))
-	
 	
 })
 	
